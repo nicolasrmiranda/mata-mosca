@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flySize1 {
+  width: 50px;
+  height: 50px;
+}
+
+.flySize2 {
+  width: 60px;
+  height: 60px;
+}
+
+.flySize3 {
+  width: 80px;
+  height: 80px;
+}
+
+.sideB {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.panel {
+  position: absolute;
+  width: 200px;
+  padding: 0px 0px 20px 40px;
+  bottom: 20px;
+}
+
+.panel .life-bar {
+  float: left;
+}
+
+.panel .timer {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
